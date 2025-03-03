@@ -1,0 +1,49 @@
+Army -> 
+            AK47 
+            M4:X
+            Sniper 
+            ShotGun 
+            Pistol
+            Rifel
+            Bazooka
+            Graned 
+            hockey 
+
+
+
+            time 
+            space 
+            
+void add () 
+        -> void : return type 
+        -> add  : function name 
+        -> ()   : argument 
+
+
+        return type ? 
+        len = strlen("royal"); 
+
+
+int a[10]; 1D
+
+[][] 
+
+MD 
+[][][] 
+[][][][]
+
+
+a[0]....a[9]
+
+0 1 2 3 4 ---> index : subscript 
+
+always start with 0 and ends with SIZE-1 
+
+array collection of data 
+     same type of data 
+     contin. memory allocation 
+
+
+
+
+------------------------------------------------------------
