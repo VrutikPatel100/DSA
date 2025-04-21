@@ -47,3 +47,75 @@ array collection of data
 
 
 ------------------------------------------------------------
+
+
+main  -> location  , num , display 
+
+
+search ---> 
+
+ds -> search -> 
+
+1) linear search  : seq : line by line 
+        0 1 2 3 4 
+
+2) binary search 
+
+
+prior condition ===> array ==> sorted array 
+
+
+ Binary search ---> 
+
+        min max 
+
+
+        while(min <= max  )
+
+                mid = (min+max) / 2 
+
+                search == a[mid]
+                                found 
+                search > a[mid] 
+                                right
+                                min = mid + 1          
+                search < a[mid]
+                                left
+                                max = mid - 1 
+-----------------------------------------------------------------------------
+
+trinary search ? 
+        yes ? 
+        no  ?
+
+-----------------------------------------------------------------------------
+
+
+Linear DS -> 
+                        STACK 
+
+
+memory --> 
+
+                int a; //4 byte 
+                int a[10]; //40 byte 
+
+
+  
+  
+  
+  long term   : heap 
+  short term  : stack 
+                              
+
+STACK ----> 
+
+PUSH : insert item / element 
+POP  : remove item / element 
+display : display all item / element
+
+PEEP -> location item / element 
+peek -> stack top position item / element  
+
+
+STACK -> local variable 

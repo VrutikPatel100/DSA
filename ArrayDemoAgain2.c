@@ -28,7 +28,7 @@ void Remove()
 {
     printf("Enter number : remove");
     scanf("%d" ,&location);
-    // arr[location - 1] = 0;
+    arr[location - 1] = 0;
 }
 
 void search(){
