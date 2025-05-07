@@ -1,23 +1,22 @@
-#include<stdio.h>
-// #include<stdlib.h>
+1.add student
+// 2.list Student
+// 3.exit
 
-// struct student{
-//     char name[30];
-//     int maths,sci,eng;
-//     float perc;
-// };
+// 1 - enter rollnum and name
+//     2                 laxman
+    
+// enter marks of three subjects:
+// 95
+// 85
+// 72
 
-// int main()
-// {
+// 1
 
-//     struct student *s;
+// 1.add student
+// 2.list Student
+// 3.exit
 
-//     s= malloc(sizeof(struct student));
+// 2.
 
-//     printf("\nEnter name and marks of three subjects:-");
-//     scanf("%s%d%d%d",&s-> name ,&s->maths,&s->sci,&s->eng);
-
-//     printf("\nname maths sci eng \n %s %d %d %d",s->name , s->maths ,s->sci,s->eng);
-
-//     return 0;
-// }
+// ram      98  58  62    98  58 = 218
+// laxman   95  85  72    95  72 = 252

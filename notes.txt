@@ -1,3 +1,4 @@
+
 Army -> 
             AK47 
             M4:X
@@ -119,3 +120,262 @@ peek -> stack top position item / element
 
 
 STACK -> local variable 
+
+-------------------------------------------------------------------------------------------------
+
+sorting -> {bubble,selection,insertion,merge,quick}
+
+
+        85,74,69,52,15,38,48
+        sorting logic 
+        15 38 48 52 69 74 85 
+
+
+
+85,74,69,52,15,38,48
+        
+
+85,74,69,52,15,38,48
+pass 1
+74,85,69,52,15,38,48
+74,69,85,52,15,38,48
+74,69,52,85,15,38,48
+74,69,52,15,85,38,48
+74,69,52,15,38,85,48
+74,69,52,15,38,48,85
+
+pass 2 
+74,69,52,15,38,48,85
+69,74,52,15,38,48,85
+69,52,74,15,38,48,85
+69,52,15,74,38,48,85
+69,52,15,38,74,48,85
+69,52,15,38,48,74,85
+
+pass 3 
+69,52,15,38,48,74,85
+52,69,15,38,48,74,85
+52,15,69,38,48,74,85
+52,15,38,69,48,74,85
+52,15,38,48,69,74,85
+
+pass 4
+52,15,38,48,69,74,85
+15,52,38,48,69,74,85
+15,38,52,48,69,74,85
+15,38,48,52,69,74,85
+
+pass 5 
+                
+
+
+
+
+
+96,32,48,74,58,15
+j  j+1
+
+
+32,48,74,58,15,96
+             j  j+1
+
+
+
+-----------------------------------------------------
+selection sort 
+
+96	32	48	74	58	15
+
+-----------------------------------------------------
+insertion sort 
+96	32	48	74	58	15
+
+
+32	96	48	74	58	15
+
+tmp=48
+32	48	96	74	58	15
+
+
+tmp=74
+32	48	74	96	58	15
+
+
+tmp=58
+32	48	58	74	96	15
+
+
+
+tmp=15
+15	32	48	58	74	96
+
+
+
+
+
+
+insertion sort 
+34,5,67,89,50
+
+
+
+tmp=5
+5      34       67      89      50
+
+
+tmp=67
+5      34       67      89      50
+
+
+tmp=89
+5      34       67      89      50
+
+
+
+tmp=50
+5      34       50      67      89
+
+
+--------------------------------------------------------------
+
+98,76,54,32,12,34,56 
+
+tmp=76
+98      76      54      32      12      34      56
+j       i 
+
+
+
+tmp=76 
+76      98      54      32      12      34      56
+        
+
+tmp=54 
+54      76      98      32      12      34      56
+
+
+tmp=32 
+32      54      76      98      12      34      56
+
+
+tmp=12 
+12      32      54      76      98      34      56
+
+
+tmp=34 
+12      32      34      54      76      98      56
+
+
+tmp=56 
+12      32      34      54      56      76      98        
+
+--------------------------------------------------
+
+1 value 
+int x; 
+
+5 value 
+int a,b,c,d,e; 
+
+50 int value
+50 float  
+
+int a[50]; 
+float b[50]; 
+
+
+studentName 
+maths
+sci
+eng
+percentage 
+
+structure ->  collection of mix type of data 
+
+
+struct Student{
+        char studentName;
+        int maths,sci,eng;
+        float percentage;
+};
+
+
+-----------------------------------------------------
+DMA -> 
+                        explicit 
+                        user define 
+                        self 
+
+
+
+void main(){
+
+        int a; //allocation 
+
+
+
+
+
+
+
+
+                // a no need 
+
+
+
+
+}//
+
+
+stdlib.h 
+function --> DMA 
+                1) calloc
+                2) malloc 
+                3) free 
+                4) realloc 
+
+
+
+Rule : memory -> variable -> pointer -> 
+
+
+int *p;
+
+p = malloc(sizeof(int));//
+//gcc:int:4  tc:int:2
+
+------------------------------------------------------
+
+create int array of size 5 using DMA , scan those data using getData() and 
+print all data using printData(). 
+create oddSum() which print sum of all odd numbers from the array. 
+
+no global variable 
+------------------------------------------------------
+
+
+monthly expense 
+tracker 
+
+
+
+date
+title
+amount
+category 
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Expense
+{
+
+    char date[11]; // 22042025 22-04-2025 22/04/2025
+    char title[30];
+    int amount;
+    char category[30];
+};
+
+struct Expense e[50];
+int index = 0;
